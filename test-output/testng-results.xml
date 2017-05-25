@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="502327" started-at="2017-05-25T01:52:11Z" finished-at="2017-05-25T02:00:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="502327" started-at="2017-05-25T01:52:11Z" finished-at="2017-05-25T02:00:33Z">
+      <class name="FacebookEvents">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:FacebookEvents@71318ec4]" name="setUp" is-config="true" duration-ms="499838" started-at="2017-05-24T18:52:11Z" finished-at="2017-05-24T19:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:FacebookEvents@71318ec4]" name="testCaseOne" duration-ms="3" started-at="2017-05-24T19:00:30Z" finished-at="2017-05-24T19:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FacebookEvents@71318ec4]" name="tearDown" is-config="true" duration-ms="2475" started-at="2017-05-24T19:00:30Z" finished-at="2017-05-24T19:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FacebookEvents -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
