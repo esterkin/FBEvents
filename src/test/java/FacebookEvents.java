@@ -79,7 +79,7 @@ public class FacebookEvents {
 				String responseContentType = response.headers().get(HttpHeaders.Names.CONTENT_TYPE);
 
 				if (responseContentType != null && responseContentType.equals("application/x-javascript; charset=utf-8")
-						&& (messageInfo.getOriginalUrl().endsWith("?dpr=1"))) {
+						&& (messageInfo.getOriginalUrl().endsWith("?dpr=2"))) {
 					
 					// Remove the 'for(;;);' appended to the JSON response
 					String eventData = contents.getTextContents().replaceFirst(Pattern.quote("for (;;);"), "");
